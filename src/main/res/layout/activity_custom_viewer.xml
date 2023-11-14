@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CustomViewerActivity">
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="38sp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="153dp"
+        tools:layout_editor_absoluteY="371dp" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/root"
+        tools:context=".CustomViewerActivity">
+        <!--        <LinearLayout-->
+        <!--            xmlns:android="http://schemas.android.com/apk/res/android"-->
+        <!--            xmlns:app="http://schemas.android.com/apk/res-auto"-->
+        <!--            xmlns:tools="http://schemas.android.com/tools"-->
+        <!--            android:layout_width="match_parent"-->
+        <!--            android:layout_height="match_parent"-->
+        <!--            android:orientation="vertical"-->
+        <!--            android:padding="16dp"-->
+        <!--            tools:context=".MainActivity">-->
+
+        <!-- Other views and widgets can be added here -->
+
+
+
+
+
+        <!-- Other views and widgets can be added here -->
+
+        <!--        </LinearLayout>-->
+
+
+        <!--        <com.jjoe64.graphview.GraphView-->
+        <!--            android:id="@+id/idGraphView"-->
+        <!--            android:layout_width="336dp"-->
+        <!--            android:layout_height="259dp"-->
+        <!--            android:layout_alignParentBottom="true"-->
+        <!--            android:layout_marginBottom="45dp"-->
+        <!--            tools:ignore="MissingConstraints" />-->
+
+        <!--        <TextureView-->
+        <!--            android:id="@+id/texture_view"-->
+        <!--            android:layout_width="269dp"-->
+        <!--            android:layout_height="237dp"-->
+        <!--            android:layout_alignParentEnd="true"-->
+        <!--            android:layout_alignParentBottom="true"-->
+        <!--            android:layout_marginEnd="42dp"-->
+        <!--            android:layout_marginBottom="90dp"-->
+        <!--            android:visibility="visible"-->
+        <!--            app:layout_constraintBottom_toBottomOf="parent"-->
+        <!--            app:layout_constraintEnd_toEndOf="parent"-->
+        <!--            app:layout_constraintHorizontal_bias="0.898"-->
+        <!--            app:layout_constraintStart_toStartOf="parent"-->
+        <!--            tools:ignore="MissingConstraints">-->
+
+        <!--            &lt;!&ndash; Add your content for the right container here &ndash;&gt;-->
+
+        <!--        </TextureView>-->
+
+        <com.jjoe64.graphview.GraphView
+            android:id="@+id/idGraphView"
+            android:layout_width="273dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="53dp"
+            android:layout_marginTop="78dp"
+            android:layout_marginEnd="95dp"
+            android:layout_marginBottom="43dp"
+            android:layout_toStartOf="@+id/texture_view"
+            tools:ignore="MissingConstraints" />
+
+        <TextureView
+            android:id="@+id/texture_view"
+            android:layout_width="269dp"
+            android:layout_height="342dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginTop="41dp"
+            android:layout_marginEnd="42dp"
+            android:layout_marginBottom="28dp"
+            android:visibility="visible"
+            tools:ignore="MissingConstraints"></TextureView>
+
+        <!--        <SurfaceView-->
+        <!--            android:id="@+id/surface_view"-->
+        <!--            android:layout_width="376dp"-->
+        <!--            android:layout_height="match_parent"-->
+        <!--            android:layout_alignParentEnd="true"-->
+        <!--            android:layout_marginEnd="8dp"-->
+        <!--            android:layout_marginBottom="32dp"-->
+        <!--            android:visibility="visible"-->
+        <!--            tools:ignore="MissingConstraints" />-->
+    </RelativeLayout>
+
+
+    <!--    <TextView-->
+    <!--        android:id="@+id/valueTextView"-->
+    <!--        android:text=""-->
+    <!--        android:layout_width="152dp"-->
+    <!--        android:layout_height="38dp"-->
+    <!--        android:textSize="28sp"-->
+    <!--        android:textStyle="bold"-->
+    <!--        android:visibility="visible"-->
+
+    <!--        tools:ignore="MissingConstraints"-->
+    <!--        tools:layout_editor_absoluteX="421dp"-->
+    <!--        tools:layout_editor_absoluteY="16dp" />-->
+    <!--    <com.jjoe64.graphview.GraphView-->
+    <!--        android:id="@+id/graphView"-->
+    <!--        android:layout_width="match_parent"-->
+    <!--        android:layout_height="match_parent"/>-->
+    <!--        app:layout_constraintTop_toTopOf="parent"-->
+    <!--        app:layout_constraintStart_toStartOf="parent"-->
+    <!--        app:layout_constraintEnd_toEndOf="parent"-->
+    <!--        app:layout_constraintBottom_toBottomOf="parent"-->
+
+</androidx.constraintlayout.widget.ConstraintLayout>

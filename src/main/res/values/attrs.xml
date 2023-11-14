@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- res/values/attrs.xml -->
+<resources>
+    <declare-styleable name="CustomTextView">
+        <attr name="customText" format="string" />
+        <attr name="customTextColor" format="color" />
+        <attr name="customBackgroundColor" format="color" />
+        <attr name="customTextSize" format="dimension" />
+    </declare-styleable>
+</resources>
